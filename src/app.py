@@ -29,7 +29,6 @@ class Playlist():
         return top10
 
     def convert_mm_ss(self,duration_ms):
-        pass
         minutes = duration_ms // 60000
         seconds = (duration_ms % 60000) // 1000
         return f"{minutes}:{seconds:02d}"
